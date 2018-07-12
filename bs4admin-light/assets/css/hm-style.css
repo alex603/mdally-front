@@ -63,14 +63,14 @@ Screen style's
   text-decoration: none;
   padding:10px 15px;
   display: block;
-  color:#bbb;  
+  color:#bbb;
   font-size:14px;
 }
 .menu > ul > li a i{
   font-size: 16px;
 }
 .menu > ul > li:hover {
-  background: #fff; 
+  background: #fff;
 }
 .menu > ul > li:hover a{
   background: #fff;
@@ -235,7 +235,7 @@ Mobile style's
   }
 
   .menu .show-on-mobile {
-    display: block;    
+    display: block;
     overflow-y: scroll;
     height: calc(100vh - 70px);
     margin-top: 10px;
