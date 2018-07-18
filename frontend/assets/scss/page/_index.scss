@@ -62,7 +62,7 @@
     }
 
     .service-dep {
-      p {        
+      p {
         line-height: 24px;
         color: $grey-700;
         font-weight: $font-weight-normal;
@@ -283,7 +283,7 @@
         }
       }
 
-      p {        
+      p {
         line-height: 20px;
         font-weight: $font-weight-normal;
         color: #636c72;
@@ -298,14 +298,14 @@
       @extend .m-l-10;
       @extend .m-r-10;
 
-      span {        
+      span {
         line-height: 20px;
         font-weight: $font-weight-normal;
         @extend .inlineblock;
 
         &.blog-comment {
           @extend .p-l-30;
-          color: #f96332;          
+          color: #f96332;
         }
       }
       i{

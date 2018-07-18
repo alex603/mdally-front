@@ -1,7 +1,7 @@
 {
-  "name": "oreo",
+  "name": "MD Ally",
   "version": "1.0.0",
-  "description": "Oreo Hospital Fronend with PSD",
+  "description": "MD Ally Hospital Fronend with PSD",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

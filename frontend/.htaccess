@@ -16,7 +16,7 @@ ExpiresDefault "access plus 2 days"
 
 <IfModule mod_expires.c>
 # Enable expirations
-ExpiresActive On 
+ExpiresActive On
 # Default directive
 ExpiresDefault "access plus 1 month"
 # My favicon
