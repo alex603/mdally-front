@@ -10938,7 +10938,7 @@ img{
     margin-right:15px
 }
 .m-b-15,.box-img-cnt .box-cnt h4,.card .card-inside-title,#hero .slider .title,.our-best-service .service-box .service-name,.why-choose-us .common-cnt .section-top p,.contact-section .contact-form .appoitntment-title,.contact-section .contact-form .form-group,.contact-section .contact-form textarea .form-group,.blog-page .right-box .popular-post ul li,.blog-page .comment-reply li{
-    margin-bottom:5px
+    margin-bottom:15px
 }
 .m-l-20{
     margin-left:20px
@@ -12247,11 +12247,11 @@ section .section-top p strong{
     padding:25px 10px 80px 10px
 }
 .main_header #header a.navbar-brand img{
-    margin-top: -80px;
+    margin-top: -100px;
      margin-right: -200px;
-     margin-left:475px;
+     margin-left:500px;
      margin-bottom:-25px;
-     width:130px
+     width:160px
 }
 .main_header #navbar{
     margin-top:-55px;
@@ -12330,7 +12330,7 @@ section .section-top p strong{
     color:#2d3035
 }
 #hero{
-    margin-top:-80px
+    margin-top:-55px
 }
 #hero .slider{
     background-size:cover;
@@ -12357,12 +12357,12 @@ section .section-top p strong{
     max-width:400px
 }
 #hero .slider .slider_form{
-    position:relative;
+    position:absolute;
     width:calc(100% - 30px);
     padding:20px 5px;
     background:#fff;
     border-radius:.25rem;
-    bottom:-37px;
+    bottom:-65px;
     box-shadow:0px 5px 20px 0px rgba(0,0,0,0.07);
     margin:0 auto
 }
@@ -12400,7 +12400,7 @@ section .section-top p strong{
     top:70px;
     left:-110px;
     background-color:#212121;
-    height:30px;
+    height:3px;
     width:150px
 }
 .our-best-service .service-box .service-icon{
