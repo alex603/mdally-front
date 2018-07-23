@@ -8,7 +8,7 @@ $(function() {
   });
   // end loading page
 
-  // start dorpdown menu with hover
+  // start dropdown menu with hover
   $('.navbar .dropdown').on('hover',function() {
       $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown();
   }, function() {
