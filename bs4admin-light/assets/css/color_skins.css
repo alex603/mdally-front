@@ -105,20 +105,20 @@
     color:#3eacff
 }
 .theme-cyan .menu>ul>li>ul.normal-sub>li a:hover,.theme-cyan .menu>ul>li>ul>li>ul>li a:hover{
-    background-color:#0002e7
+    background-color:#002E73
 }
 .theme-cyan.sidebar-collapse .navbar-collapse:before{
-    background-color:#0002e7
+    background-color:#002E73
 }
 .theme-cyan .btn-primary{
-    background:#0002e7
+    background:#002E73
 }
 .theme-cyan .btn-primary:active,.theme-cyan .btn-primary:hover,.theme-cyan .btn-primary:focus{
-    background:#0002e7
+    background:#002E73
 }
 .theme-cyan .btn-primary.btn-simple{
-    border-color:#0002e7;
-    color:#0002e7;
+    border-color:#002E73;
+    color:#002E73;
     background:transparent
 }
 .theme-cyan .block-header h2{
@@ -128,10 +128,10 @@
     color:#fff
 }
 .theme-cyan section.content:before{
-    background-color:#0002e7
+    background-color:#002E73
 }
 .theme-cyan .navbar,.theme-cyan .page-loader-wrapper{
-    background:#0002e7
+    background:#002E73
 }
 .theme-cyan .bars{
     color:#fff
@@ -140,22 +140,22 @@
     background-color:transparent
 }
 .theme-cyan .sidebar .menu .list li.active>:first-child i,.theme-cyan .sidebar .menu .list li.active>:first-child span{
-    color:#0002e7
+    color:#002E73
 }
 .theme-cyan .sidebar .menu .list a:hover{
-    color:#0002e7
+    color:#002E73
 }
 .theme-cyan .checkbox input[type="checkbox"]:checked+label::after{
-    border:1px solid #0002e7
+    border:1px solid #002E73
 }
 .theme-cyan .nav-tabs .nav-link.active{
-    border:1px solid #0002e7 !important
+    border:1px solid #002E73 !important
 }
 .theme-cyan .card .header h2:before{
-    background:#0002e7
+    background:#002E73
 }
 .theme-cyan .card .header h2 strong{
-    color:#0002e7
+    color:#002E73
 }
 .theme-green .menu>ul>li>ul.normal-sub>li a:hover,.theme-green .menu>ul>li>ul>li>ul>li a:hover{
     background-color:#5cdb94
@@ -316,4 +316,3 @@
 .theme-blush .card .header h2 strong{
     color:#ffafbd
 }
- 
