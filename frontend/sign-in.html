@@ -35,7 +35,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="modal" href="#log-modal">
-                      Login Help/Forgot Password?
+                      Forgot Password? V2
                     </a>
                 </li>
                 <li class="nav-item">
@@ -45,7 +45,12 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="modal" href="#reg-modal">
-                      Sign up 2/Register
+                      Sign up V2
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" href="#req-modal">
+                      Request Info
                     </a>
                 </li>
                 <li class="nav-item">
@@ -246,6 +251,41 @@ Different from last two passwords ">
         </div>
     </div>
 </div>
+<div class="modal fade" id="req-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="title" id="defaultModalLabel">Request Info </h4>
+            </div>
+            <div class="modal-body">
+              <div class="input-group input-sm">
+              <input type="text" class="form-control" placeholder="Enter your Email">
+              </div>
+              <div class="input-group input-sm">
+              <input type="text" class="form-control" placeholder="Enter your Name">
+              </div>
+              <div class="input-group input-lg">
+                <textarea class="form-control m-b-15" placeholder="Send us a Message..."></textarea>
+              </div>
+              <select class="form-control m-b-15">
+                  <option selected="selected">Topic...</option>
+                  <option>Signing up </option>
+                  <option>Want to Collaborate</option>
+                  <option>Surgeon </option>
+                  <option>Other </option>
+              </select>
+              <form action="" method="post">
+                <div class="g-recaptcha" data-sitekey="6LdkYGYUAAAAAI8b39oE76eGjxsT_A_wAEnZR3CC"></div>
+              </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">CLOSE</button>
+                <button type="button" class="btn btn-primary btn-round ">Send</button>
+                <button type="button" class="btn btn-primary btn-round step1" data-dismiss="modal">Previous Step</button>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- End Modal -->
 <div class="page-header">
     <div class="page-header-image" style="background-image:url(assets/images/login.jpg)"></div>
@@ -333,6 +373,6 @@ $(function(){
   });
 });
 </script>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </body>
 </html>
