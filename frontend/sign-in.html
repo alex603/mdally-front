@@ -33,35 +33,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
-
-
-
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="modal" data-target="#exampleModalLong">
+                    <a class="nav-link" data-toggle="modal" href="#log-modal">
                       Login Help
                     </a>
                 </li>
-                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" href="#log-modal2">
+                      Login Help 2
+                    </a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" title="Follow us on Twitter" href="javascript:void(0);" target="_blank">
                         <i class="zmdi zmdi-twitter"></i>
@@ -88,6 +69,55 @@
     </div>
 </nav>
 <!-- End Navbar -->
+<!-- Modal -->
+<div class="modal fade" id="log-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="title" id="defaultModalLabel">Login Help</h4>
+            </div>
+            <div class="modal-body">
+              <select class="form-control m-b-15">
+                  <option selected="selected">Help me with my...?</option>
+                  <option>Username</option>
+                  <option>Password</option>
+                  <option>Both</option>
+              </select>
+              <input type="text" class="form-control" placeholder="Enter Email">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-round waves-effect">Submit</button>
+                <button type="button" class="btn btn-danger waves-effect" data-dismiss="modal">CLOSE</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="log-modal2" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="title" id="defaultModalLabel">Login Help</h4>
+            </div>
+            <div class="modal-body">
+
+              <input type="text" class="form-control" placeholder="Enter New Password" title="6+ characters
+2+ alpha
+1+ capital
+1+ lowercase
+1+ numeric
+Different from last two passwords ">
+              <br>
+              <input type="text" class="form-control" placeholder="Confirm New Password">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-round waves-effect">Submit</button>
+                <button type="button" class="btn btn-danger waves-effect" data-dismiss="modal">CLOSE</button>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="page-header">
     <div class="page-header-image" style="background-image:url(assets/images/login.jpg)"></div>
     <div class="container">
