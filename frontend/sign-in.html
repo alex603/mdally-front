@@ -44,6 +44,11 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" href="#reg-modal">
+                      Register
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" title="Follow us on Twitter" href="javascript:void(0);" target="_blank">
                         <i class="zmdi zmdi-twitter"></i>
                         <p class="d-lg-none d-xl-none">Twitter</p>
@@ -83,8 +88,9 @@
                   <option>Password</option>
                   <option>Both</option>
               </select>
+              <div class="input-group input-sm">
               <input type="text" class="form-control" placeholder="Enter Email">
-
+              </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary btn-round waves-effect">Submit</button>
@@ -100,16 +106,51 @@
                 <h4 class="title" id="defaultModalLabel">Login Help</h4>
             </div>
             <div class="modal-body">
-
+              <div class="input-group input-sm">
               <input type="text" class="form-control" placeholder="Enter New Password" title="6+ characters
 2+ alpha
 1+ capital
 1+ lowercase
 1+ numeric
 Different from last two passwords ">
-              <br>
+            </div>
+            <div class="input-group input-sm">
               <input type="text" class="form-control" placeholder="Confirm New Password">
-
+            </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-round waves-effect">Submit</button>
+                <button type="button" class="btn btn-danger waves-effect" data-dismiss="modal">CLOSE</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="reg-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="title" id="defaultModalLabel">Login Help</h4>
+            </div>
+            <div class="modal-body">
+              <div class="input-group input-sm">
+              <input type="text" class="form-control" placeholder="Enter Email">
+              </div>
+              <div class="input-group input-sm">
+              <input type="text" class="form-control" placeholder="Username">
+              </div>
+              <div class="input-group input-lg">
+              <input type="text" class="form-control" placeholder="Password">
+              </div>
+              <select class="form-control m-b-15">
+                  <option selected="selected">Physician type</option>
+                  <option>Primary Care - Family Medicine </option>
+                  <option>Primary Care - Internal Medicine </option>
+                  <option>Hospitalist </option>
+                  <option>Surgeon </option>
+                  <option>Cardiologist </option>
+                  <option>Dermatologist </option>
+                  <option>Endocrinologist </option>
+              </select>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary btn-round waves-effect">Submit</button>

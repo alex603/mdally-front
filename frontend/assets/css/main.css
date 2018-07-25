@@ -1319,7 +1319,7 @@
 .form-control+.form-control-feedback{
     border-radius:.25rem;
     font-size:14px;
-    margin-top:0;
+    margin-top:;
     position:absolute;
     left:18px;
     bottom:-20px;
