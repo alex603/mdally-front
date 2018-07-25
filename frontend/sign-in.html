@@ -40,7 +40,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="modal" href="#log-modal2">
-                      Login Help 2
+                      Change Password
                     </a>
                 </li>
                 <li class="nav-item">
@@ -74,7 +74,8 @@
     </div>
 </nav>
 <!-- End Navbar -->
-<!-- Modal -->
+
+<!-- Modals -->
 <div class="modal fade" id="log-modal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -93,8 +94,8 @@
               </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary btn-round waves-effect">Submit</button>
-                <button type="button" class="btn btn-danger waves-effect" data-dismiss="modal">CLOSE</button>
+                <button type="button" class="btn btn-primary btn-round ">Submit</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">CLOSE</button>
             </div>
         </div>
     </div>
@@ -103,7 +104,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="title" id="defaultModalLabel">Login Help</h4>
+                <h4 class="title" id="defaultModalLabel">Change Password</h4>
             </div>
             <div class="modal-body">
               <div class="input-group input-sm">
@@ -119,8 +120,8 @@ Different from last two passwords ">
             </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary btn-round waves-effect">Submit</button>
-                <button type="button" class="btn btn-danger waves-effect" data-dismiss="modal">CLOSE</button>
+                <button type="button" class="btn btn-primary btn-round ">Submit</button>
+                <button type="button" class="btn btn-danger " data-dismiss="modal">CLOSE</button>
             </div>
         </div>
     </div>
@@ -129,7 +130,7 @@ Different from last two passwords ">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="title" id="defaultModalLabel">Login Help</h4>
+                <h4 class="title" id="defaultModalLabel">Register</h4>
             </div>
             <div class="modal-body">
               <div class="input-group input-sm">
@@ -153,12 +154,39 @@ Different from last two passwords ">
               </select>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary btn-round waves-effect">Submit</button>
-                <button type="button" class="btn btn-danger waves-effect" data-dismiss="modal">CLOSE</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">CLOSE</button>
+                <button type="button" class="btn btn-primary btn-round ">Submit</button>
+                <button type="button" class="btn btn-primary step2" data-dismiss="modal">Next Step</button>
             </div>
         </div>
     </div>
 </div>
+<div class="modal fade" id="reg2-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="title" id="defaultModalLabel">Register </h4>
+            </div>
+            <div class="modal-body">
+              <select class="form-control m-b-15">
+                  <option selected="selected">Help me with my...?</option>
+                  <option>Username</option>
+                  <option>Password</option>
+                  <option>Both</option>
+              </select>
+              <div class="input-group input-sm">
+              <input type="text" class="form-control" placeholder="Enter your Credentials">
+              </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">CLOSE</button>
+                <button type="button" class="btn btn-primary btn-round ">Register</button>
+                <button type="button" class="btn btn-primary btn-round step1" data-dismiss="modal">Previous Step</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
 <div class="page-header">
     <div class="page-header-image" style="background-image:url(assets/images/login.jpg)"></div>
     <div class="container">
@@ -234,5 +262,17 @@ $('.form-control').on("focus", function() {
     $(this).parent(".input-group").removeClass("input-group-focus");
 });
 </script>
+
+<script>
+$(function(){
+  $(".step2").click(function(){
+      $("#reg2-modal").modal();
+  });
+  $(".step1").click(function(){
+      $("#reg-modal").modal();
+  });
+});
+</script>
+
 </body>
 </html>
