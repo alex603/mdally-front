@@ -1485,8 +1485,7 @@ textarea.form-control{
     line-height:1
 }
 textarea.form-control:focus,textarea.form-control:active{
-    border-left:1px solid #E3E3E3;
-    border-right:1px solid #E3E3E3;
+    
 }
 .has-success.form-group .form-control,.has-success.form-group.form-group-no-border .form-control,.has-danger.form-group .form-control,.has-danger.form-group.form-group-no-border .form-control{
     padding-right:30px
