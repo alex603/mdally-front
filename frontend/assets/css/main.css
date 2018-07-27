@@ -10940,7 +10940,7 @@ img{
     margin-right:15px
 }
 .m-b-15,.box-img-cnt .box-cnt h4,.card .card-inside-title,#hero .slider .title,.our-best-service .service-box .service-name,.why-choose-us .common-cnt .section-top p,.contact-section .contact-form .appoitntment-title,.contact-section .contact-form .form-group,.contact-section .contact-form textarea .form-group,.blog-page .right-box .popular-post ul li,.blog-page .comment-reply li{
-    margin-bottom:5px
+    margin-bottom:-165px
 }
 .m-l-20{
     margin-left:20px
@@ -12357,6 +12357,14 @@ section .section-top p strong{
     font-size:16px;
     color:#757575;
     max-width:400px
+}
+#hero .slider .sub-title-right{
+    font-size:16px;
+    color:#757575;
+    position:relative;
+    left:950px;
+    bottom:50px;
+
 }
 #hero .slider .slider_form{
     position:relative;
