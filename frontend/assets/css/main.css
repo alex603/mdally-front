@@ -1485,7 +1485,7 @@ textarea.form-control{
     line-height:1
 }
 textarea.form-control:focus,textarea.form-control:active{
-    
+
 }
 .has-success.form-group .form-control,.has-success.form-group.form-group-no-border .form-control,.has-danger.form-group .form-control,.has-danger.form-group.form-group-no-border .form-control{
     padding-right:30px
@@ -12326,7 +12326,7 @@ section .section-top p strong{
 }
 #footer .copyright{
     background-color:#fff;
-    padding:10px 0
+    padding:100px 0
 }
 #footer .copyright .social a{
     color:#2d3035
