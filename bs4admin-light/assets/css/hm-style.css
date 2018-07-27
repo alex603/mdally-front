@@ -13,6 +13,14 @@ Screen style's
   top:60px;
   z-index:10;
 }
+.footer-container {
+  width:100%;
+  margin: 0 auto;
+  background:#263238;
+  position:fixed;
+  top:690px;
+  z-index:10;
+}
 .menu-mobile {
   display: none;
   padding: 20px;
