@@ -10940,7 +10940,7 @@ img{
     margin-right:15px
 }
 .m-b-15,.box-img-cnt .box-cnt h4,.card .card-inside-title,#hero .slider .title,.our-best-service .service-box .service-name,.why-choose-us .common-cnt .section-top p,.contact-section .contact-form .appoitntment-title,.contact-section .contact-form .form-group,.contact-section .contact-form textarea .form-group,.blog-page .right-box .popular-post ul li,.blog-page .comment-reply li{
-    margin-bottom:-165px
+    margin-bottom:15px
 }
 .m-l-20{
     margin-left:20px
@@ -12337,8 +12337,8 @@ section .section-top p strong{
 #hero .slider{
     background-size:cover;
     background-position:center center;
-    max-height:550px;
-    height:550px
+    max-height:600px;
+    height:600px
 }
 #hero .slider .title{
     font-size:50px;
@@ -12356,15 +12356,22 @@ section .section-top p strong{
 #hero .slider .sub-title{
     font-size:16px;
     color:#757575;
-    max-width:400px
+    position:relative;
+    right:-30px;
+    bottom:160px;
+
 }
 #hero .slider .sub-title-right{
     font-size:16px;
     color:#757575;
     position:relative;
     left:950px;
-    bottom:50px;
-
+    bottom:300px;
+}
+#hero .slider .button-middle{
+    position:relative;
+    left:487px;
+    bottom:-150px;
 }
 #hero .slider .slider_form{
     position:relative;
@@ -12372,7 +12379,7 @@ section .section-top p strong{
     padding:20px 5px;
     background:#fff;
     border-radius:.25rem;
-    bottom:-80px;
+    bottom:-200px;
     box-shadow:0px 5px 20px 0px rgba(0,0,0,0.07);
     margin:0 auto
 }

@@ -40,10 +40,14 @@
                         <div class="col-lg-6 col-md-5">
                             <div class="text-right">
                                 <ul class="list-unstyled m-b-0">
-                                    <li><a href="sign-in.html" class="btn btn-link">Request Info</a>
+                                    <li>
                                       <a href="sign-in.html" class="btn btn-link">Sign in</a>
-                                      <a href="sign-in.html" class="btn btn-link">Contact us</a>
-                                    </li>
+                                      <a class="btn btn-link" data-toggle="modal" href="#req-modal">
+                                        Contact us
+                                      </a>
+                                      <a class="btn btn-link" data-toggle="modal" href="#reg-modal">
+                                        Register</a>
+                                  </li>
                                 </ul>
                             </div>
                         </div>
@@ -80,7 +84,11 @@
                       <h3 class="title"><span></span> <br>
                         <h3 class="sub-title-right"><strong>About MD Ally</strong></h3>
                       </div>
-                <div class="slider_form row">
+
+                      <div class="button-middle">
+                      <a href="sign-up.html" target="_blank" class="btn btn-primary btn-round">Sign Up</a>
+                      </div>
+                <!-- <div class="slider_form row">
                     <p class="col-12">Join our team</p>
                     <div class="col-lg-4 col-md-6">
                         <div class="form-group">
@@ -184,7 +192,7 @@
                       <div class="col-lg-4 col-md-6">
                           <button class="btn btn-primary btn-round btn-block m-t-0 m-b-0">Submit</button>
                       </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -632,6 +640,74 @@
                 </div> -->
             </div>
         </div>
+        <div class="modal fade" id="reg-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="title" id="defaultModalLabel">Sign Up2/Register </h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Enter Email">
+                      </div>
+                      <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Username">
+                      </div>
+                      <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Password">
+                      </div>
+                      <select class="form-control m-b-15">
+                          <option selected="selected">Physician type</option>
+                          <option>Primary Care - Family Medicine </option>
+                          <option>Primary Care - Internal Medicine </option>
+                          <option>Hospitalist </option>
+                          <option>Surgeon </option>
+                          <option>Cardiologist </option>
+                          <option>Dermatologist </option>
+                          <option>Endocrinologist </option>
+                      </select>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">CLOSE</button>
+                        <button type="button" class="btn btn-primary step2" data-dismiss="modal">Next Step</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="req-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="title" id="defaultModalLabel">Request Info </h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Enter your Email">
+                      </div>
+                      <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Enter your Name">
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control m-b-15" placeholder="Send us a Message..."></textarea>
+                      </div>
+                      <select class="form-control m-b-15">
+                          <option selected="selected">Topic...</option>
+                          <option>Signing up </option>
+                          <option>Want to Collaborate</option>
+                          <option>Surgeon </option>
+                          <option>Other </option>
+                      </select>
+                      <form action="" method="post">
+                        <div class="g-recaptcha" data-sitekey="6LdkYGYUAAAAAI8b39oE76eGjxsT_A_wAEnZR3CC"></div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">CLOSE</button>
+                        <button type="button" class="btn btn-primary btn-round ">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="copyright">
             <div class="container">
                 <div class="row">
@@ -646,10 +722,6 @@
                     </div>
                     <div class="col-lg-2 col-md-2">
                     <a href="contact.html" target="_blank">Copyright</a>
-                    </div>
-                    <div class="col-lg-2 col-md-2">
-                        <!-- <div class="social float-md-right"><a href=""><i class="zmdi zmdi-facebook m-r-10"></i></a> -->
-                        <a href="sign-up.html" target="_blank">Sign up</a>
                     </div>
                 </div>
             </div>
