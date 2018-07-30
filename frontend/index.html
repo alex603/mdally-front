@@ -42,11 +42,11 @@
                                 <ul class="list-unstyled m-b-0">
                                     <li>
                                       <a href="sign-in.html" class="btn btn-link">Sign in</a>
+                                      <a class="btn btn-link" data-toggle="modal" href="#reg-modal">
+                                        Sign Up</a>
                                       <a class="btn btn-link" data-toggle="modal" href="#req-modal">
                                         Contact us
                                       </a>
-                                      <a class="btn btn-link" data-toggle="modal" href="#reg-modal">
-                                        Register</a>
                                   </li>
                                 </ul>
                             </div>
@@ -86,7 +86,8 @@
                       </div>
 
                       <div class="button-middle">
-                      <a href="sign-up.html" target="_blank" class="btn btn-primary btn-round">Sign Up</a>
+                        <a class="btn btn-primary btn-round" data-toggle="modal" href="#reg-modal">
+                         Sign Up</a>
                       </div>
                 <!-- <div class="slider_form row">
                     <p class="col-12">Join our team</p>
@@ -644,7 +645,7 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="title" id="defaultModalLabel">Sign Up2/Register </h4>
+                        <h4 class="title" id="defaultModalLabel">Sign Up </h4>
                     </div>
                     <div class="modal-body">
                       <div class="form-group">
@@ -708,6 +709,92 @@
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="reg2-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="title" id="defaultModalLabel">Sign in </h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="form-group">
+                        <textarea class="form-control m-b-15">
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                          SAMPLE TERMS OF USAGE
+                        </textarea>
+                      </div>
+                      <div class="checkbox">
+                              <input id="termss" type="checkbox">
+                              <label for="termss">
+                                      Accept Terms <a href="javascript:void(0);"></a>
+                              </label>
+                          </div>
+                      <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Enter your Credentials">
+                      </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">CLOSE</button>
+                        <button type="button" class="btn btn-primary btn-round ">Sign up</button>
+                        <button type="button" class="btn btn-primary btn-round step1" data-dismiss="modal">Previous Step</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="copyright">
             <div class="container">
                 <div class="row">
@@ -733,5 +820,15 @@
 
 <script src="assets/js/app.js"></script><!-- my js -->
 <script src="assets/js/countTo.js"></script>
+<script>
+$(function(){
+  $(".step2").click(function(){
+      $("#reg2-modal").modal();
+  });
+  $(".step1").click(function(){
+      $("#reg-modal").modal();
+  });
+});
+</script>
 </body>
 </html>
