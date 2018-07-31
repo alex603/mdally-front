@@ -12337,8 +12337,8 @@ section .section-top p strong{
 #hero .slider{
     background-size:cover;
     background-position:center center;
-    max-height:600px;
-    height:600px
+    max-height:585px;
+    height:585px
 }
 #hero .slider .title{
     font-size:50px;
@@ -12371,7 +12371,7 @@ section .section-top p strong{
 #hero .slider .button-middle{
     position:relative;
     left:487px;
-    bottom:-150px;
+    bottom:-120px;
 }
 #hero .slider .slider_form{
     position:relative;
