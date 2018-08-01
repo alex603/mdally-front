@@ -11744,13 +11744,22 @@ img{
 .navbar-header .navbar-brand{
     font-size:18px
 }
-.navbar-header .bars{
-    float:left;
-    text-decoration:none
+.navbar-header .middle{
+    position:relative;
+    right:-240px
+}
+.navbar-header .middle2{
+    position:relative;
+    right:-450px
 }
 .navbar-nav.navbar-left{
     width:100%;
     vertical-align:top
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
 .navbar-nav.navbar-left .dropdown-menu{
     left:0;
