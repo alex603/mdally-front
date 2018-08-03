@@ -1924,6 +1924,10 @@ p{
     color:#9A9A9A;
     font-weight:300
 }
+.bottom-left{
+    position: relative;
+      top:-200px;
+}
 .category{
     text-transform:uppercase;
     font-weight:700;
@@ -11746,7 +11750,7 @@ img{
 }
 .navbar-header .middle{
     position:relative;
-    right:-240px
+    right:-509px
 }
 .navbar-header .middle2{
     position:relative;
