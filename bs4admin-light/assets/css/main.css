@@ -17864,3 +17864,8 @@ div.iframe{
   left: 0px;
   top: 100px;
 }
+div.capbutton{
+  position: fixed;
+  left: 1300px;
+  top: 635px;
+}
